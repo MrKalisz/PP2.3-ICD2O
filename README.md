@@ -1,35 +1,21 @@
 # Instructions  
 
-# Practice Problem 2.1
+# Practice Problem 2.3
 
-1. The variable _num_ holds an integer from user input  Write a conditional statement that does the following:
+A triangle can be classified based on the lengths of its sides as equilateral, isosceles or scalene. All 3
 
-- If num is even (divisible by 2), print "__ is even"
-- If num is odd, print "__ is odd"
+sides of an equilateral triangle have the same length. An isosceles triangle has two sides that are the
 
-Examples:
+same length, and a third side that is a different length. If all of the sides have different lengths then the
 
-```
-In: 23
-23 is odd
-```
-```
-In: 36
-36 is even
-```
+triangle is scalene. Write a program that asks the user to "Input a number: " 3 times (can be decimal fractions).  The numbers are the 3 sides of a triangle. Display one of the four messages indicating which triangle it is.
 
-2. The variable _name_ holds a String from user input.  Write a conditional statement that does the following:
+"Scalene"
 
-- If name is equal to "Kalisz", print "teacher"
-- For any other input, print "student"
+"Isosceles"
 
-Examples:
+"Equilateral"
 
-```
-In: Kalisz
-teacher
-```
-```
-In: Faa
-student
-```
+"No Triangle"
+
+Note: If two sides of a triangle add up to less than the third side the triangle does not exist.
