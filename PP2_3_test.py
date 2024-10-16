@@ -76,7 +76,7 @@ def test_q2_2(capsys):
 
 	PP2_3.q2()
 	captured = capsys.readouterr()
-	assert captured.out == "In:\n"
+	assert captured.out == "In: "
 
 def test_q1_3(capsys):
 
